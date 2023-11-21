@@ -1,9 +1,19 @@
-.container {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.container {
+    border: 0.5rem solid red;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70rem;
 }
 
 .square {
-    height: 10rem;
-    width: 10rem;
-    border: 0.4rem solid black;
+    height: 4.9rem;
+    width: 4.9rem;
+    border: 0.1rem solid black;
 }
